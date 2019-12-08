@@ -1,0 +1,12 @@
+  <h1>login</h1>
+  <form>
+    <mat-form-field>
+      <input matInput placeholder="email" [attr.data-test]="'email'">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input type="password" matInput placeholder="passoword" [attr.data-test]="'password'">
+    </mat-form-field>
+
+  </form>
+  <button mat-raised-button color="accent" (click)="login()" [attr.data-test]="'login-button'">Login</button>
