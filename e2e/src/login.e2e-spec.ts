@@ -1,4 +1,4 @@
-import {LoginPage} from './app.po';
+import {LoginPage} from './login.po';
 import {browser} from 'protractor';
 
 describe('workspace-project App', () => {

@@ -1,4 +1,4 @@
-# AngularE2e
+# AngularE2E
 
 ## Development server
 
@@ -7,6 +7,6 @@
 ## Running end-to-end tests
 
 ```
-npx protractor ./e2e/protractor.conf.js --specs=./e2e/src/app.e2e-spec.ts
+npx protractor ./e2e/protractor.conf.js --specs=./e2e/src/login.e2e-spec.ts
 ```
 
