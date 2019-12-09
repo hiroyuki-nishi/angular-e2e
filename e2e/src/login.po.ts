@@ -2,7 +2,7 @@ import { browser, by, element } from 'protractor';
 
 
 export class LoginPage {
-  private IDS = {
+  private TEST_IDS = {
     EMAIL: 'email',
     PASSWORD: 'password',
     BUTTON: 'login-button',
@@ -14,9 +14,9 @@ export class LoginPage {
 
   login(mail: string, password: string): LoginPage {
     browser.get('http://localhost:4200/#/login');
-    element(by.xpath(this.xpathLocator(this.IDS.EMAIL))).sendKeys(mail);
-    element(by.xpath(this.xpathLocator(this.IDS.PASSWORD))).sendKeys(password);
-    element(by.xpath(this.xpathLocator(this.IDS.BUTTON))).click();
+    element(by.xpath(this.xpathLocator(this.TEST_IDS.EMAIL))).sendKeys(mail);
+    element(by.xpath(this.xpathLocator(this.TEST_IDS.PASSWORD))).sendKeys(password);
+    element(by.xpath(this.xpathLocator(this.TEST_IDS.BUTTON))).click();
     return this;
   }
 }
