@@ -1,4 +1,5 @@
-import {browser, by, element} from 'protractor';
+import { browser, by, element } from 'protractor';
+
 
 export class LoginPage {
   private IDS = {
@@ -6,6 +7,7 @@ export class LoginPage {
     PASSWORD: 'password',
     BUTTON: 'login-button',
   };
+
   private xpathLocator(id: string) {
     return `//*[contains(@data-test, "${id}")]`;
   }
