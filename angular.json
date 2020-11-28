@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "angular-e2e"
+  "defaultProject": "angular-e2e",
+  "cli": {
+    "analytics": "280d1004-f5df-4716-b9bb-b3b56291b7fd"
+  }
 }
